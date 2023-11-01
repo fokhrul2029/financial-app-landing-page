@@ -56,12 +56,9 @@ img {
   font-weight: 600;
   color: rgb(0, 0, 0);
 }
-.hero-section p {
-  font-family: "Clash Display";
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 28px;
-  color: rgb(136, 139, 146);
+@media (max-width: 1200px) {
+.hero-section h1 {
+  font-size: 45px ;
 }
 .hero-section button {
   padding: 9px 17px 8px;
