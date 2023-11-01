@@ -1,0 +1,334 @@
+@font-face {
+  font-family: "Clash Display";
+  src: url("../ClashDisplay-font/Fonts/Variable/ClashDisplay-Variable.ttf");
+}
+
+* {
+  font-family: "Clash Display";
+}
+
+img {
+  max-width: 100%;
+}
+
+.app-title {
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgb(255, 85, 85);
+  text-transform: uppercase;
+}
+
+.app-btn {
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 9px 29px 8px;
+  transition: all 0.3s ease 0s;
+}
+
+.app-btn:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+}
+/* ============= Navigation CSS ============= */
+.navigation-section li a {
+  font-family: "Clash Display";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.navigation-section .active {
+  color: rgb(255, 85, 85) !important;
+}
+/* ============ Hero section CSS ============  */
+.hero-section h1 {
+  font-family: "Clash Display";
+  font-size: 54px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+.hero-section p {
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgb(136, 139, 146);
+}
+.hero-section button {
+  padding: 9px 17px 8px;
+}
+.hero-section span {
+  cursor: pointer;
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+/* ============= .feature-section CSS ============ */
+.feature-section h1 {
+  font-family: "Clash Display";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 48px;
+  color: rgb(0, 0, 0);
+}
+.feature-section h3 {
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgb(0, 0, 0);
+  margin-top: 23px;
+}
+.feature-section p {
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgb(136, 139, 146);
+  margin-top: 14px;
+}
+/* ============ Advantage section CSS ==============  */
+.advantange-section h1 {
+  font-family: "Clash Display";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 48px;
+  color: rgb(0, 0, 0);
+}
+.advantange-section h3 {
+  font-family: "Clash Display";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgb(0, 0, 0);
+  margin-top: 29px;
+  margin-bottom: 20px;
+}
+.advantange-section h3 img {
+  margin-right: 10px;
+  max-width: 48px !important;
+}
+.advantange-section p {
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgb(136, 139, 146);
+  padding-right: 50px;
+}
+/* =========== .testimonial-section CSS =============  */
+.testimonial-section h4 {
+  color: rgb(0, 0, 0);
+}
+
+.testimonial-section h1 {
+  font-family: "Clash Display";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 48px;
+  color: rgb(0, 0, 0);
+}
+.testimonial-section h3 {
+  font-family: "Clash Display";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgb(0, 0, 0);
+}
+.testimonial-section p {
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgb(136, 139, 146);
+  margin-top: 20px;
+  margin-bottom: 29px;
+}
+.users-img img {
+  width: 38px;
+  height: 38px;
+  border-radius: 100%;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.2s ease 0s;
+  margin: 3px;
+}
+.users-img img:hover {
+  transform: scale(1.15);
+  opacity: 1;
+}
+.users-img img:nth-child(1) {
+  transform: scale(1.15);
+  opacity: 1;
+}
+.testimonial-section strong {
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgb(0, 0, 0);
+  display: block;
+  margin-top: 30px;
+}
+/* ============== FAQ Section CSS =============  */
+.faq-section h1 {
+  font-family: "Clash Display";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 48px;
+  color: rgb(0, 0, 0);
+}
+.faq-section div .card-A {
+  margin: 20px 20px 20px 0px;
+  padding: 30px 30px 20px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: rgb(255, 85, 85);
+}
+.faq-section .card-B {
+  margin: 20px;
+  padding: 30px 30px 20px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+.faq-section h2 {
+  font-family: "Clash Display";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.faq-section p {
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  max-height: 2.8em; /* Adjust to control the number of lines */
+}
+.faq-section .card-A h2 {
+  color: rgb(255, 255, 255);
+}
+.faq-section .card-A p {
+  color: rgb(255, 255, 255);
+}
+.faq-section .card-B h2 {
+  color: rgb(0, 0, 0);
+}
+.faq-section .card-B p {
+  color: rgb(0, 0, 0);
+}
+/* Media Query for FAQ Card */
+@media (max-width: 992px) {
+  .orange-card {
+    background-color: rgb(255, 85, 85) !important ;
+  }
+  .orange-card h2 {
+    color: rgb(255, 255, 255) !important;
+  }
+  .orange-card p {
+    color: rgb(255, 255, 255) !important;
+  }
+  .white-card {
+    background-color: #ffffff !important ;
+  }
+  .white-card h2 {
+    color: rgb(0, 0, 0) !important;
+  }
+  .white-card p {
+    color: rgb(0, 0, 0) !important;
+  }
+}
+.faq-section .faq-frame {
+  width: 100%;
+  height: 550px;
+  margin: 50px 0px;
+  background-image: url("../../assets/img/faq-frame.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 6px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.faq-section .faq-frame div {
+  padding: 0px 0px 0px 70px;
+}
+.faq-section .faq-frame h1 {
+  font-family: "Clash Display";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  max-width: 547px;
+  text-shadow: black 0px 0px 10px;
+}
+.faq-section .faq-frame p {
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(136, 139, 146);
+  text-transform: capitalize;
+  max-width: 536px;
+  text-shadow: black 0px 0px 10px;
+}
+.faq-section .faq-frame button {
+  font-family: "Clash Display";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+/* ============= Footer CSS ===============  */
+.footer-section h1 {
+  font-family: "Clash Display";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.footer-section p {
+  font-family: "Clash Display";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.footer-section p:hover {
+  color: rgba(46, 46, 46, 0.89);
+}
+.footer-section form input {
+  width: 49%;
+}
+.footer-section form input:nth-child(1) {
+  border: none;
+  outline: none;
+}
+.footer-section form .app-btn {
+  padding-left: 0;
+  padding-right: 0;
+}
