@@ -337,3 +337,11 @@ img {
   padding-left: 0;
   padding-right: 0;
 }
+.footer-section .bottom-side a {
+  color: rgb(255, 85, 85);
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+.footer-section .bottom-side a:hover {
+  color: red ;
+}
