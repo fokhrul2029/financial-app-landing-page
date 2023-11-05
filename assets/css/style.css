@@ -38,6 +38,11 @@ img {
   border: 1px solid rgb(0, 0, 0);
 }
 /* ============= Navigation CSS ============= */
+.navigation-section .container {
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 .navigation-section li a {
   font-family: "Clash Display";
   font-size: 20px;
@@ -343,5 +348,5 @@ img {
   transition: 0.2s ease;
 }
 .footer-section .bottom-side a:hover {
-  color: red ;
+  color: red;
 }
